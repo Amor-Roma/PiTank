@@ -1,0 +1,127 @@
+body {
+  background-image: url("http://www.3d-hdwallpaper.com/bulk_images/desktop-fish-tank-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: white;
+  font-size: 200%;
+  font-weight: bold
+}
+
+h1 {
+  color: blue;
+  text-shadow: 8px 8px 8px white;
+}
+
+#password {
+  color: black;
+  text-shadow: 8px 8px 8px blue;
+}
+
+
+table, tr, td {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 4px blue;
+}
+
+select {
+  font-family: "Arial Black", Gadget, sans-serif;
+  width: 150px;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px blue;
+  background-color: lightblue;
+  padding: 1px;
+  border-radius: 15px 35px;
+  box-shadow: 25px 25px 25px black;
+  display:inline-block;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightblue;
+}
+
+
+#fullScreen {
+  font-family: "Arial", Gadget, sans-serif;
+  font-size: 20px;
+  color: lightblue;
+  font-weight: normal;
+}
+
+.tankVideo {
+  border-radius: 15px 25px;
+  box-shadow: 50px 50px 50px black;
+  display:inline-block;
+  border:2px 
+  solid lightblue;
+}
+
+.switchVideo {
+  float:left; width:45%;
+}
+
+.smallNotes {
+  text-align: center;
+  font-family: "Arial", Gadget, sans-serif;
+  color: white;
+  text-shadow: 0px 0px 3px blue;
+  font-weight: normal;
+}
+
+.divCenter {
+  float: center;
+}
+
+input {
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px blue;
+  border-radius: 35px 15px;
+  box-shadow: 25px 25px 25px black;
+  display:inline-block;
+}
+
+
+.btn {
+  background: #f5f525;
+  background-image: linear-gradient(to bottom, blue, lightblue);
+  border-radius: 15px 50px;
+  text-shadow: 2px 2px 3px #0a000a;
+  -webkit-box-shadow: 13px 23px 30px #302d30;
+  -moz-box-shadow: 13px 23px 30px #302d30;
+  box-shadow: 23px 33px 40px black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: white;
+  font-size: 29px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #19cc25;
+  background-image: linear-gradient(to bottom, lightblue, blue);
+  text-decoration: none;
+}
